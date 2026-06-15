@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace pttkht
 {
-    public partial class Form1 : Form
+    public partial class them_sach : Form
     {
-        public Form1()
+        public them_sach()
         {
             InitializeComponent();
         }

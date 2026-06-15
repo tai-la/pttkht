@@ -46,16 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Le_Anh_Tai\them_sach.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Le_Anh_Tai\them_sach.Designer.cs">
+      <DependentUpon>them_sach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Le_Anh_Tai\gia_han_the_doc_gia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Le_Anh_Tai\gia_han_the_doc_gia.Designer.cs">
+      <DependentUpon>gia_han_the_doc_gia.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Le_Anh_Tai\them_sach.resx">
+      <DependentUpon>them_sach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Le_Anh_Tai\gia_han_the_doc_gia.resx">
+      <DependentUpon>gia_han_the_doc_gia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
